@@ -1,0 +1,37 @@
+{
+  "name": "chat-application-projects",
+  "version": "1.0.0",
+  "description": "Node JS and ExpressJS chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development&& nodemon server.js",
+    "prod": "set NODE_ENV=production&& nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mridha-rakib/ChatLink.git"
+  },
+  "author": "Rakib Mahmud Mridha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mridha-rakib/ChatLink/issues"
+  },
+  "homepage": "https://github.com/mridha-rakib/ChatLink#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
